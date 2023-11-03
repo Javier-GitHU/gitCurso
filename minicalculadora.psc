@@ -17,7 +17,13 @@ Algoritmo minicalculadora
          num_res <- num_a - num_b;
          Escribir "La resta de ", num_a," y de ", num_b," es de ",num_res;
       sino
-         Escribir "Esa operación no esta permitida";
+		  Escribir "Esa operación no esta permitida";
+		  si (opcion =3) Entonces
+			  num_res<-num_a * num_b;
+			  Escribir "La multiplicacion de ", num_a," y de ", num_b,"es de ",num_res;
+		  SiNo
+			  Escribir "Esa operación no esta permitida";
+		  FinSi
      finsi
  finsi
 FinAlgoritmo
