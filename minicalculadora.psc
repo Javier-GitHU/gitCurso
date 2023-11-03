@@ -24,6 +24,12 @@ Algoritmo minicalculadora
 		  SiNo
 			  Escribir "Esa operación no esta permitida";
 		  FinSi
+		  si (opcion =3)Entonces
+			  num_res<-num_a / num_b;
+			  Escribir "La division de ", num_a," y de ", num_b,"es de ",num_res;
+		  SiNo
+			  Escribir "Esa operación no esta permitida";
+		  FinSi
      finsi
  finsi
 FinAlgoritmo
